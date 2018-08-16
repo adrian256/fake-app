@@ -1,0 +1,1 @@
+from .fakeapp import app
