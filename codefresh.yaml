@@ -42,7 +42,7 @@ steps:
     image: 'codefresh/cfstep-helm:2.9.1'
     environment:
     - ACTION=push
-    - CHART_REF=charts/fake-app
+    - CHART_REF=chart/fake-app
 
   DeployToStaging:
     image: 'codefresh/cfstep-helm:2.9.1'
