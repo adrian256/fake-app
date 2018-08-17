@@ -7,6 +7,7 @@ replicaCount: 1
 image:
   pullPolicy: IfNotPresent
   repository: r.cfcr.io/adrian256/adrian256/fake-app
+  tag: master
 
 service:
   type: ClusterIP
