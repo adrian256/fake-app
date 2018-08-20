@@ -5,4 +5,4 @@ app = Flask('fakeapp')
 
 @app.route('/')
 def home():
-    return "fake app"
+    return "fake app v0.3.0"

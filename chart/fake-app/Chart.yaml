@@ -1,5 +1,4 @@
 apiVersion: v1
-appVersion: "1.0"
 description: A Helm chart for Kubernetes
 name: fake-app
-version: 0.2.0
+version: v0.3.0
