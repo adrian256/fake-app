@@ -46,7 +46,7 @@ steps:
     when:
       branch:
         only:
-        - ^v.*
+        - /^v.*/i
 
   StoreChart:
     title: Storing Helm chart
@@ -57,7 +57,7 @@ steps:
     when:
       branch:
         only:
-        - ^v.*
+        - /^v.*/i
 
   DeployToDev:
     image: 'codefresh/cfstep-helm:2.9.1'
