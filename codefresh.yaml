@@ -61,7 +61,7 @@ steps:
     environment:
     - CHART_REF=${{HELM_CHART_NAME}}
     - RELEASE_NAME=${{HELM_RELEASE_NAME}}
-    - KUBE_CONTEXT=${{KUBE_CONTEXT_DEV}
+    - KUBE_CONTEXT=${{KUBE_CONTEXT_DEV}}
     - NAMESPACE=${{KUBE_NAMESPACE}}
     - VALUE_image_pullPolicy=Always
     - VALUE_image_tag='${{CF_BRANCH_TAG_NORMALIZED}}-${{CF_SHORT_REVISION}}'
